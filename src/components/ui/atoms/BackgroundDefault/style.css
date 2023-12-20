@@ -1,0 +1,11 @@
+.backgroundDefault{
+    width: 85%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: #1B1D1F;
+    border-radius: 8px;
+    position: absolute;   
+    top: 15%;
+}
