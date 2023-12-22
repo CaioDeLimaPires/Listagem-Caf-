@@ -1,7 +1,7 @@
 import BackgroundCofe from '@layout/atoms/BackgroundCofe';
 import '../src/styles/app.css';
 import BackgroundDefault from '@ui/atoms/BackgroundDefault';
-import HeaderInitialPage from './components/pages/InitialPage/components/molecules/HeaderInitialpage';
+import CoffeePresentationBlockWithButtons from './components/pages/InitialPage/components/organisms/CoffeePresentationBlockWithButtons';
 
 function App() {
   return (
@@ -38,7 +38,7 @@ function App() {
       />
       <BackgroundCofe>
         <BackgroundDefault>
-          <HeaderInitialPage />
+          <CoffeePresentationBlockWithButtons/>
         </BackgroundDefault>
       </BackgroundCofe>
     </div>

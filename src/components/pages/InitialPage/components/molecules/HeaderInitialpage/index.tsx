@@ -1,6 +1,7 @@
 import Typography from '@ui/atoms/Typography';
 import './style.css';
 
+
 const title = 'Our Collection';
 const subTitle =
   'Introducing our Coffee Collection,' +
@@ -8,9 +9,16 @@ const subTitle =
   'expertly roasted in small batches and shipped fresh weekly.';
 
 const HeaderInitialPage = () => (
-  <div className="container">
-    <Typography text={title} style="big" />
-    <Typography text={subTitle} style="sub-title" />
+  <div className="containerHeader">
+    <img
+      className="vetor"
+      src="../../src/assets/vector.svg"
+      alt="Background vector"
+    />
+    <div className="containerText">
+      <Typography text={title} style="big" />
+      <Typography text={subTitle} style="sub-title" />
+    </div>    
   </div>
 );
 
