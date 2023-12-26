@@ -38,8 +38,9 @@ function App() {
       />
       <BackgroundCofe>
         <BackgroundDefault>
-          <CoffeePresentationBlockWithButtons/>
+          <CoffeePresentationBlockWithButtons/>     
         </BackgroundDefault>
+             
       </BackgroundCofe>
     </div>
   );

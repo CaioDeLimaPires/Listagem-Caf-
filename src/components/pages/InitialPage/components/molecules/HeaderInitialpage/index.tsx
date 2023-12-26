@@ -1,7 +1,6 @@
 import Typography from '@ui/atoms/Typography';
 import './style.css';
 
-
 const title = 'Our Collection';
 const subTitle =
   'Introducing our Coffee Collection,' +
@@ -18,7 +17,7 @@ const HeaderInitialPage = () => (
     <div className="containerText">
       <Typography text={title} style="big" />
       <Typography text={subTitle} style="sub-title" />
-    </div>    
+    </div>
   </div>
 );
 

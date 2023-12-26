@@ -4,23 +4,21 @@
     width: 45%;
     align-items: center;
     justify-content: center;
-    position: relative;
-    height: auto;
+    position: relative;    
 }
 
 .containerText {
     align-items: center;
     justify-content: center;
     display: flex;
-    flex-direction: column;
-    position: absolute;
+    flex-direction: column;    
     z-Index: 2
 }
 
 .vetor  {
     position: absolute;
-    height: auto;
-    width: 50%;
-    left: 50%;
-    bottom: -6.5vh;    
+    height: auto;    
+    width: 245px;
+    left: 51%;
+    bottom: 70px      
 }
