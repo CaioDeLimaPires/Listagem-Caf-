@@ -1,7 +1,24 @@
-.container{
+.containerHeader {
     display: flex;
     flex-direction: column;
     width: 45%;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
+    position: relative;    
+}
+
+.containerText {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;    
+    z-Index: 2
+}
+
+.vetor  {
+    position: absolute;
+    height: auto;    
+    width: 245px;
+    left: 51%;
+    bottom: 70px      
 }

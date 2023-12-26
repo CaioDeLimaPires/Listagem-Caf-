@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Isso pode ajudar a evitar problemas com larguras e alturas */
+    font-family: "DM sans";
   }
   html, body,#root {
     margin: 0;

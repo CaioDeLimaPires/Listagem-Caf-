@@ -8,4 +8,7 @@
     border-radius: 8px;
     position: absolute;   
     top: 15%;
+    overflow: hidden;
+    flex-direction: column;
+
 }
