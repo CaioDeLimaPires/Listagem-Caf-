@@ -1,0 +1,12 @@
+.containerCard {
+  width: 50px;
+  height: 25px;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #bee3cc;
+  font-size: 12px;
+  font-weight: 600;
+  color: #111315;
+}

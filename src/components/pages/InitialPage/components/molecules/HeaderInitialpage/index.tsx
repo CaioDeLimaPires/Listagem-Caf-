@@ -11,7 +11,7 @@ const HeaderInitialPage = () => (
   <div className="containerHeader">
     <img
       className="vetor"
-      src="../../src/assets/vector.svg"
+      src="/vector.svg"
       alt="Background vector"
     />
     <div className="containerText">
