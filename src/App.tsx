@@ -1,11 +1,10 @@
-import BackgroundCofe from '@layout/atoms/BackgroundCofe';
-import '../src/styles/app.css';
 import BackgroundDefault from '@ui/atoms/BackgroundDefault';
 import CoffeePresentationBlockWithButtons from './components/pages/InitialPage/components/organisms/CoffeePresentationBlockWithButtons';
+import Card from '@ui/atoms/Card';
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link
@@ -36,12 +35,32 @@ function App() {
         href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap"
         rel="stylesheet"
       />
-      <BackgroundCofe>
+      <img
+        style={{ width: '100%', height: '250px', top: 0, position: 'absolute' }}
+        src="/bg-cafe.jpg"
+      ></img>
+      <div style={{ padding: '135px' }}>
         <BackgroundDefault>
-          <CoffeePresentationBlockWithButtons/>     
+          <CoffeePresentationBlockWithButtons />
+          <div
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              gap: '24px',
+              alignItems: 'center',
+              width: '100%',
+              justifyContent: 'center'
+            }}
+          >
+            <Card image="/capuccino.jpg" />
+            <Card image="/capuccino.jpg" />
+            <Card image="/capuccino.jpg" />
+            <Card image="/capuccino.jpg" />
+            <Card image="/capuccino.jpg" />
+            <Card image="/capuccino.jpg" />
+          </div>
         </BackgroundDefault>
-             
-      </BackgroundCofe>
+      </div>
     </div>
   );
 }

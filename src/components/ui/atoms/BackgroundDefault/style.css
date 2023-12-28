@@ -1,14 +1,29 @@
-.backgroundDefault{
-    width: 85%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-    background-color: #1B1D1F;
-    border-radius: 8px;
-    position: absolute;   
-    top: 15%;
-    overflow: hidden;
-    flex-direction: column;
+.backgroundDefault {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1d1f;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  gap: 48px;
+}
+@media only screen and (max-width: 900px) {
+  .backgroundDefault {
+    padding: 90px 20px 50px;
+  }
 
+  /* Outros estilos para telas pequenas */
+}
+@media only screen and (max-width: 1024px) {
+  .backgroundDefault {
+    width: 95%;
+    left: 4%;
+  }
+
+  /* Outros estilos para telas pequenas */
 }
