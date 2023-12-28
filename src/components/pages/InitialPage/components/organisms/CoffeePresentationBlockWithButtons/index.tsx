@@ -1,5 +1,5 @@
 import HeaderInitialPage from '../../molecules/HeaderInitialpage';
-import { SelectActions } from '../../molecules/HeaderInitialpage/SelectActions';
+import { SelectActions } from '../../molecules/SelectActions';
 import './style.css';
 const CoffeePresentationBlockWithButtons = () => (
   <div className="container">

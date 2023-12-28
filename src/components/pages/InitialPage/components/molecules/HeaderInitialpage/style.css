@@ -1,24 +1,39 @@
 .containerHeader {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-    align-items: center;
-    justify-content: center;
-    position: relative;    
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .containerText {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;    
-    z-Index: 2
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
 }
 
-.vetor  {
-    position: absolute;
-    height: auto;    
-    width: 245px;
-    left: 51%;
-    bottom: 70px      
+.vetor {
+  position: absolute;
+  height: auto;
+  width: 250px;
+  left: 50%;
+  bottom: 15%;
+}
+@media only screen and (max-width: 900px) {
+  .containerHeader {
+    width: 100%;
+  }  /* Outros estilos para telas pequenas */
+}
+@media only screen and (max-width: 645px) {
+  .containerHeader {
+    width: 100%;
+  }
+  .vetor{
+    width: 230px;
+    bottom: 40%;
+    left: 52%;    
+  }
 }
