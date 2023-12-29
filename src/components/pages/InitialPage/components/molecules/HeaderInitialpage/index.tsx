@@ -9,11 +9,7 @@ const subTitle =
 
 const HeaderInitialPage = () => (
   <div className="containerHeader">
-    <img
-      className="vetor"
-      src="../../src/assets/vector.svg"
-      alt="Background vector"
-    />
+    <img className="vetor" src="/vector.svg" alt="Background vector" />
     <div className="containerText">
       <Typography text={title} style="big" />
       <Typography text={subTitle} style="sub-title" />

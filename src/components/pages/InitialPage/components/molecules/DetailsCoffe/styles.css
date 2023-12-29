@@ -1,0 +1,28 @@
+.containerDetails {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+}
+.containerTextDetails {
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+
+.containerStatus {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+}
+.containerRating {
+  display: flex;
+  gap: 4px;
+}
+.containerDefault {
+  display: flex;
+  width: 100%;
+}
