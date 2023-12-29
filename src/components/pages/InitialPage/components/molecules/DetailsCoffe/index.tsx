@@ -1,6 +1,7 @@
 import Typography from '@ui/atoms/Typography';
-import PriceCard from '../../atoms/PriceCard';
 import './styles.css';
+import PriceCard from '@pages/initialPage/atomsPriceCard';
+
 type Props = {
   text: string;
   price: string;
@@ -10,7 +11,7 @@ type Props = {
 
 const DetailsCoffe = ({ text, price, rating, votes }: Props) => (
   <div className="containerDetails">
-    <div className='containerDefault' >
+    <div className="containerDefault">
       <div className="containerTextDetails">
         <Typography text={text} style={'small'} />
       </div>
@@ -18,7 +19,7 @@ const DetailsCoffe = ({ text, price, rating, votes }: Props) => (
     </div>
     <div className="containerStatus">
       <img src="/Star_fill.svg" alt="StarFill" />
-      <div className='containerRating'>
+      <div className="containerRating">
         <Typography text={rating.toString()} style="small" />
         <Typography text={`(${votes} votes)`} style="sub-title" />
       </div>

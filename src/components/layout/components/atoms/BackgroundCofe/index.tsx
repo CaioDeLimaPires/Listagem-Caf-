@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import '../../../styles/BackgroundCofe.css';
+import './BackgroundCofe.css';
 
 type Props = {
   children: ReactNode;

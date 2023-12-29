@@ -23,6 +23,9 @@
     "paths": {
       "@layout/atoms/*":["./src/components/layout/components/atoms/*"],
       "@ui/atoms/*":["./src/components/ui/atoms/*"],
+      "@pages/initialPage/atoms*":["./src/components/pages/InitialPage/components/atoms/*"],
+      "@pages/initialPage/molecules*":["./src/components/pages/InitialPage/components/molecules/*"],
+      "@pages/initialPage/organisms*":["./src/components/pages/InitialPage/components/organisms/*"],
     },
   },
   "include": ["src"],

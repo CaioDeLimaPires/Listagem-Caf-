@@ -1,9 +1,10 @@
-import HeaderInitialPage from '../../molecules/HeaderInitialpage';
-import { SelectActions } from '../../molecules/SelectActions';
+import HeaderInitialPage from '@pages/initialPage/moleculesHeaderInitialpage';
 import './style.css';
+import { SelectActions } from '@pages/initialPage/moleculesSelectActions';
+
 const CoffeePresentationBlockWithButtons = () => (
   <div className="container">
-    <HeaderInitialPage />
+    <HeaderInitialPage/>
     <SelectActions />
   </div>
 );
