@@ -1,22 +1,21 @@
-.active{
-    border: none;
-    border-radius: 8px ;
-    color:#FEF7EE ;
-    background-color: #6F757C;
-    padding: 8px;
-    font-size:0.875rem ;
-    font: 600;
+.active {
+  border: none;
+  border-radius: 8px;
+  color: #fef7ee;
+  background-color: #6f757c;
+  padding: 8px;
+  font-size: 0.875rem;
+  font: 600;
 }
 .notActive {
-    border: none;
-    border-radius: 8px ;
-    color:#FEF7EE ;
-    background-color: #1B1D1F;
-    padding: 8px;
-    font-size:0.875rem ;
-    font-weight: 500;
-    
+  border: none;
+  border-radius: 8px;
+  color: #fef7ee;
+  background-color: #1b1d1f;
+  padding: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
 }
-.notActive:hover{
-    background-color: #6F757C;    
+.notActive:hover {
+  background-color: #6f757c;
 }

@@ -1,45 +1,45 @@
-.big{
-    font-size:2rem ;
-    font-family: "DM sans";
-    color: #FEF7EE;
-    font-weight: 600;
+.big {
+  font-size: 2rem;
+  font-family: 'DM sans';
+  color: #fef7ee;
+  font-weight: 600;
 }
-.medium{
-    font-size:1rem ;
-    font-family: "DM sans";
-    color: #FEF7EE;
-    font-weight: 600;
+.medium {
+  font-size: 1rem;
+  font-family: 'DM sans';
+  color: #fef7ee;
+  font-weight: 600;
 }
-.small{
-    font-size:12px ;
-    font-family: "DM sans";
-    color: #FEF7EE;
-    font-weight: 600;
+.small {
+  font-size: 12px;
+  font-family: 'DM sans';
+  color: #fef7ee;
+  font-weight: 600;
 }
-.x-small{
-    font-size:10px ;
-    font-family: "DM sans";
-    color: #FEF7EE;
-    font-weight: 600;
+.x-small {
+  font-size: 10px;
+  font-family: 'DM sans';
+  color: #fef7ee;
+  font-weight: 600;
 }
 
-.sub-title{
-    font-size:1rem ;
-    font-family: "DM sans";
-    color: #6F757C;    
-    text-align: center;
+.sub-title {
+  font-size: 1rem;
+  font-family: 'DM sans';
+  color: #6f757c;
+  text-align: center;
 }
-.sub-title-small{
-    font-size:12px ;
-    font-family: "DM sans";
-    color: #6F757C;    
-    text-align: center;
-    font-weight: 600;
+.sub-title-small {
+  font-size: 12px;
+  font-family: 'DM sans';
+  color: #6f757c;
+  text-align: center;
+  font-weight: 600;
 }
-.warning{
-    font-size:12px ;
-    font-family: "DM sans";
-    color: #ED735D;    
-    text-align: center;
-    font-weight: 600;
+.warning {
+  font-size: 12px;
+  font-family: 'DM sans';
+  color: #ed735d;
+  text-align: center;
+  font-weight: 600;
 }

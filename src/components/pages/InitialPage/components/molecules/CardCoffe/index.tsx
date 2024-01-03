@@ -10,7 +10,7 @@ export type CoffeDetailsProps = {
   name: string;
   image: string;
   price: string;
-  rating: number|null;
+  rating: number | null;
   votes: number;
   popular: boolean;
   available: boolean;
@@ -23,9 +23,9 @@ const CardCoffe = ({ data }: Props) => {
         price={item.price}
         rating={item.rating}
         text={item.name}
-        votes={item.votes} 
-        avilable={item.available}  
-            />
+        votes={item.votes}
+        avilable={item.available}
+      />
     </div>
   ));
 };
