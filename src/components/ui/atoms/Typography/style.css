@@ -4,8 +4,20 @@
     color: #FEF7EE;
     font-weight: 600;
 }
-.small{
+.medium{
     font-size:1rem ;
+    font-family: "DM sans";
+    color: #FEF7EE;
+    font-weight: 600;
+}
+.small{
+    font-size:12px ;
+    font-family: "DM sans";
+    color: #FEF7EE;
+    font-weight: 600;
+}
+.x-small{
+    font-size:10px ;
     font-family: "DM sans";
     color: #FEF7EE;
     font-weight: 600;
@@ -16,4 +28,18 @@
     font-family: "DM sans";
     color: #6F757C;    
     text-align: center;
+}
+.sub-title-small{
+    font-size:12px ;
+    font-family: "DM sans";
+    color: #6F757C;    
+    text-align: center;
+    font-weight: 600;
+}
+.warning{
+    font-size:12px ;
+    font-family: "DM sans";
+    color: #ED735D;    
+    text-align: center;
+    font-weight: 600;
 }
