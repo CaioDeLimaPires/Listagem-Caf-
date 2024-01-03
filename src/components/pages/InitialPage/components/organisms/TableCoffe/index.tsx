@@ -1,13 +1,12 @@
-
 import './style.css';
 import { useCoffeeData } from '../../../../../services/api-service';
 import CardCoffe from '@pages/initialPage/moleculesCardCoffe';
 
 const TableCoffe = () => {
-  const { data} = useCoffeeData();
+  const { data } = useCoffeeData();
   return (
     <div className="containerTableCoffe">
-      <CardCoffe data={data||[]} />
+      <CardCoffe data={data || []} />
     </div>
   );
 };

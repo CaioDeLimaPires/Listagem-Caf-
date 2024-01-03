@@ -4,7 +4,7 @@ import { SelectActions } from '@pages/initialPage/moleculesSelectActions';
 
 const CoffeePresentationBlockWithButtons = () => (
   <div className="container">
-    <HeaderInitialPage/>
+    <HeaderInitialPage />
     <SelectActions />
   </div>
 );

@@ -25,15 +25,15 @@
 @media only screen and (max-width: 900px) {
   .containerHeader {
     width: 100%;
-  }  /* Outros estilos para telas pequenas */
+  } /* Outros estilos para telas pequenas */
 }
 @media only screen and (max-width: 645px) {
   .containerHeader {
     width: 100%;
   }
-  .vetor{
+  .vetor {
     width: 230px;
     bottom: 40%;
-    left: 52%;    
+    left: 52%;
   }
 }

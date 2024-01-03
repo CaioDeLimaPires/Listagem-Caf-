@@ -1,7 +1,7 @@
 import BackgroundDefault from '@ui/atoms/BackgroundDefault';
 import TableCoffe from '@pages/initialPage/organismsTableCoffe';
 import CoffeePresentationBlockWithButtons from '@pages/initialPage/organismsCoffeePresentationBlockWithButtons';
-import "../src/styles/app.css"
+import '../src/styles/app.css';
 
 function App() {
   return (
@@ -39,8 +39,8 @@ function App() {
       <img className="imageBackgrround" src="/bg-cafe.jpg"></img>
       <div style={{ padding: '135px' }}>
         <BackgroundDefault>
-          <CoffeePresentationBlockWithButtons/>
-          <TableCoffe/>
+          <CoffeePresentationBlockWithButtons />
+          <TableCoffe />
         </BackgroundDefault>
       </div>
     </div>

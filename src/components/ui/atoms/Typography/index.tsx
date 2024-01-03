@@ -5,7 +5,14 @@ type Props = {
   text: string;
 };
 
-type style = 'big' | 'sub-title'|'small'|'x-small'|'medium'|'sub-title-small'|"warning";
+type style =
+  | 'big'
+  | 'sub-title'
+  | 'small'
+  | 'x-small'
+  | 'medium'
+  | 'sub-title-small'
+  | 'warning';
 
 const Typography = ({ text, style = 'sub-title' }: Props) => (
   <p className={style}>{text}</p>
