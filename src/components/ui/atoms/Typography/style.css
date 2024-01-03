@@ -34,4 +34,12 @@
     font-family: "DM sans";
     color: #6F757C;    
     text-align: center;
+    font-weight: 600;
+}
+.warning{
+    font-size:12px ;
+    font-family: "DM sans";
+    color: #ED735D;    
+    text-align: center;
+    font-weight: 600;
 }

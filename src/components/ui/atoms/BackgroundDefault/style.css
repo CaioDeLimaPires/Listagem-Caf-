@@ -1,16 +1,14 @@
 .backgroundDefault {
   width: 100%;
-  display: flex;
-  justify-content: center;
+  display: flex;  
   align-items: center;
   background-color: #1b1d1f;
   border-radius: 8px;
   overflow: hidden;
   flex-direction: column;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 74px;
   position: relative;
-  gap: 48px;
+  gap: 36px;
 }
 @media only screen and (max-width: 900px) {
   .backgroundDefault {
