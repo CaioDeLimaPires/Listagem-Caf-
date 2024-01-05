@@ -6,22 +6,18 @@
   border-radius: 8px;
   overflow: hidden;
   flex-direction: column;
-  padding: 74px;
-  position: relative;
+  padding: 100px 20px 20px;
+  z-index:2;
   gap: 36px;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 960px) {
   .backgroundDefault {
-    padding: 90px 20px 50px;
+    padding: 100px 20px 50px;   
   }
-
-  /* Outros estilos para telas pequenas */
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
   .backgroundDefault {
     width: 95%;
-    left: 4%;
+    left: 4%;    
   }
-
-  /* Outros estilos para telas pequenas */
 }
