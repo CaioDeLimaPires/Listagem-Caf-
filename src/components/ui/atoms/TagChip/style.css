@@ -1,0 +1,15 @@
+.containerTagChip {
+  width: 60px;
+  height: 25px;
+  border-radius: 16px;
+  position:absolute;    
+  top: 10px;
+  left: 10px; 
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #F6C768;
+  font-size: 10px;
+  font-weight: 700;
+  color: #111315;
+}

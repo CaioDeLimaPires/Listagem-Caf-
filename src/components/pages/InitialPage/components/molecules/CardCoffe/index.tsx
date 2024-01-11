@@ -2,6 +2,7 @@ import Card from '@ui/atoms/Card';
 import './style.css';
 import DetailsCoffe from '../DetailsCoffe';
 import { useAlterStateButton } from '../../../../../context/ButtonChangeTheViewType/context';
+import TagChip from '@ui/atoms/TagChip';
 
 type Props = {
   data: CoffeDetailsProps[];
@@ -24,6 +25,7 @@ const CardCoffe = ({ data }: Props) => {
     buttonState === 'AvailableNow' ? (
       item.available ? (
         <div className="containerCardCoffe" key={item.id}>
+          {item.popular&&<TagChip text='Popular' />}
           <Card image={item.image} />
           <DetailsCoffe
             price={item.price}
@@ -36,6 +38,7 @@ const CardCoffe = ({ data }: Props) => {
       ) : null
     ) : (
       <div className="containerCardCoffe" key={item.id}>
+        {item.popular&&<TagChip text='Popular' />}
         <Card image={item.image} />
         <DetailsCoffe
           price={item.price}
