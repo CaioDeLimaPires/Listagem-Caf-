@@ -21,7 +21,7 @@
   height: auto;
   width: 250px;
   left: 50%;
-  bottom: 16%;
+  bottom: 14%;
 }
 @media only screen and (max-width: 900px) {
   .containerHeader {
