@@ -37,7 +37,7 @@ function App() {
         rel="stylesheet"
       />
       <img className="imageBackgrround" src="/bg-cafe.jpg"></img>
-      <div style={{ padding: '135px',display:"flex" }}>
+      <div style={{ padding: '135px',display:"flex",paddingTop:"160px" }}>
         <BackgroundDefault>
           <CoffeePresentationBlockWithButtons />
           <TableCoffe />

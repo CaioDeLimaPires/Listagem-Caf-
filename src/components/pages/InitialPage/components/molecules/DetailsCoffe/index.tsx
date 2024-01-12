@@ -20,16 +20,16 @@ const DetailsCoffe = ({ text, price, rating, votes, avilable }: Props) => (
     </div>
     <div className="containerStatus">
       {rating ? (
-        <img src="/Star_fill.svg" alt="StarFill" width={18} height={18} />
+        <img src="/Star_fill.svg" alt="StarFill" width={22} height={22} />
       ) : (
-        <img src="/Star.svg" alt="Star" width={18} height={18} />
+        <img src="/Star.svg" alt="Star" width={20} height={20} />
       )}
       <div className="containerDefault">
         <div className="containerRating">
-          {rating && <Typography text={rating.toString()} style="small" />}
+          {rating && <Typography text={rating.toString()} style="medium" />}
           <Typography
             text={votes ? `(${votes} votes)` : 'No ratings'}
-            style="sub-title-small"
+            style="sub-title"
           />
         </div>
         {!avilable && (
