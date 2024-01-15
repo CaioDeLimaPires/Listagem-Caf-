@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  gap:10px;
+  gap:8px;
   flex-direction: column;
   z-index: 2;
 }
@@ -21,7 +21,7 @@
   height: auto;
   width: 250px;
   left: 50%;
-  bottom: 14%;
+  bottom: 14.5%;
 }
 @media only screen and (max-width: 900px) {
   .containerHeader {

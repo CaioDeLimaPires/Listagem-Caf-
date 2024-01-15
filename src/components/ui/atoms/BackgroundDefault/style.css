@@ -5,18 +5,23 @@
   border-radius: 8px;
   overflow: hidden;
   flex-direction: column;
-  padding: 80px 20px 65px 20px;
+  padding: 80px 50px 65px 50px;
   z-index:2;
   gap: 36px;
+  width: 100%;
 }
 @media only screen and (max-width: 960px) {
+  .backgroundDefault {
+    padding: 100px 50px 50px;   
+  }
+}
+@media only screen and (max-width: 830px) {
   .backgroundDefault {
     padding: 100px 20px 50px;   
   }
 }
 @media only screen and (max-width: 1200px) {
   .backgroundDefault {
-    width: 95%;
-    left: 4%;    
+    width: 95%;       
   }
 }
