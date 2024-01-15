@@ -14,13 +14,13 @@ const DetailsCoffe = ({ text, price, rating, votes, avilable }: Props) => (
   <div className="containerDetails">
     <div className="containerDefault">
       <div className="containerTextDetails">
-        <Typography text={text} style={'medium'} />
+        <Typography text={text} style='medium-title' />
       </div>
       <PriceCard price={price} />
     </div>
     <div className="containerStatus">
       {rating ? (
-        <img src="/Star_fill.svg" alt="StarFill" width={22} height={22} />
+        <img src="/Star_fill.svg" alt="StarFill" width={20} height={20} />
       ) : (
         <img src="/Star.svg" alt="Star" width={20} height={20} />
       )}
