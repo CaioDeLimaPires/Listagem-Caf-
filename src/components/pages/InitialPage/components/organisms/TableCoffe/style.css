@@ -1,9 +1,10 @@
 .containerTableCoffe {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   column-gap: 32px;
   row-gap: 64px;
+  align-items: center;
   width: 100%;
+  margin-right: auto;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, minmax(0,260px));
- 
 }

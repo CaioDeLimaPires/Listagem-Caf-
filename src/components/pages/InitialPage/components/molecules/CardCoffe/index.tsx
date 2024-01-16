@@ -25,10 +25,8 @@ const CardCoffe = ({ data }: Props) => {
     buttonState === 'AvailableNow' ? (
       item.available ? (
         <div className="containerCardCoffe" key={item.id}>
-          <div style={{position:"relative"}}>
-            {item.popular && <TagChip text="Popular" />}
-            <Card image={item.image} />
-          </div>
+          {item.popular&&<TagChip text='Popular' />}
+          <Card image={item.image} />
           <DetailsCoffe
             price={item.price}
             rating={item.rating}
@@ -40,10 +38,8 @@ const CardCoffe = ({ data }: Props) => {
       ) : null
     ) : (
       <div className="containerCardCoffe" key={item.id}>
-        <div style={{position:"relative"}}>
-          {item.popular && <TagChip text="Popular" />}
-          <Card image={item.image} />
-        </div>
+        {item.popular&&<TagChip text='Popular' />}
+        <Card image={item.image} />
         <DetailsCoffe
           price={item.price}
           rating={item.rating}
