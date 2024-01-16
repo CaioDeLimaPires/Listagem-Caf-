@@ -11,6 +11,7 @@ type style =
   | 'small'
   | 'x-small'
   | 'medium'
+  | 'medium-title'
   | 'sub-title-small'
   | 'warning';
 
