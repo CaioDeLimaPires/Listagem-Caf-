@@ -4,14 +4,8 @@
   color: #fef7ee;
   font-weight: 600;
 }
-.medium-title {
-  font-size: 1rem;
-  font-family: 'DM sans';
-  color: #fef7ee;
-  font-weight: 600;
-}
 .medium {
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: 'DM sans';
   color: #fef7ee;
   font-weight: 600;
@@ -30,7 +24,7 @@
 }
 
 .sub-title {
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: 'DM sans';
   color: #6f757c;
   text-align: center;
